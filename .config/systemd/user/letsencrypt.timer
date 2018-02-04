@@ -1,0 +1,9 @@
+[Unit]
+Description=Update LetsEncrypt certificates once a month
+
+[Timer]
+OnCalendar=monthly
+
+[Install]
+WantedBy=timers.target
+

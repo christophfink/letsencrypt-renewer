@@ -1,0 +1,7 @@
+*.key
+*.pem
+*.crt
+*.csr
+.bash*
+!.bash_profile
+.viminfo

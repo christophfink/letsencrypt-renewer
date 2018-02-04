@@ -1,1 +1,0 @@
-06 04 4 Feb,Apr,Jun,Aug,Oct,Dec *   letsencrypt  HOME=/var/lib/letsencrypt /var/lib/letsencrypt/renew-certificates.sh
