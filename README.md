@@ -7,7 +7,7 @@ preparation
 * install acme-tiny
 * create a user letsencrypt with home dir /var/lib/letsencrypt (adapt name and home dir to suit your environment)
 * grant this user specific sudo rights in /etc/sudoers (use visudo!):
-	## allow letsencrypt script restart apache, postfix, dovecot
+	## allow letsencrypt script to restart apache, postfix, dovecot
 	letsencrypt ALL=(ALL) NOPASSWD: /sbin/service apache2 restart
 	letsencrypt ALL=(ALL) NOPASSWD: /sbin/service postfix restart
 	letsencrypt ALL=(ALL) NOPASSWD: /sbin/service dovecot restart
