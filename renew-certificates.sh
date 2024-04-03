@@ -48,7 +48,7 @@ acme-tiny \
 >"${signed}"
 
 # update symlink to latest certificates
-#ln -sf "${signed}" "${HOME}/signedCertificate.crt"
+ln -sf "${signed}" "${HOME}/signedCertificate.crt"
 
 # and adjust the new certificates’ permissions
 chmod 0640 "${signed}"
