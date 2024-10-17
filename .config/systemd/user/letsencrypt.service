@@ -1,9 +1,9 @@
 [Unit]
-Description=Update LetsEncrypt certificates
+Description = Update LetsEncrypt certificates
 
 [Service]
-Type=oneshot
-ExecStart=/var/lib/letsencrypt/renew-certificates.sh
+Type = oneshot
+ExecStart = /var/lib/letsencrypt/renew-certificates.sh
 
 [Install]
-WantedBy=multi-user.target
+WantedBy = multi-user.target

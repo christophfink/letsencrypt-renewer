@@ -1,9 +1,10 @@
 [Unit]
-Description=Update LetsEncrypt certificates once a month
+Description = Update LetsEncrypt certificates once a month
 
 [Timer]
-OnCalendar=monthly
+OnCalendar = monthly
+RandomizedDelaySec = 24h
 
 [Install]
-WantedBy=timers.target
+WantedBy = timers.target
 
